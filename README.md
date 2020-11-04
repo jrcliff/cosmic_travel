@@ -4,27 +4,27 @@ It is the year 2100 and you run an interplanetary space travel agency.  You are 
 
 ## Instructions
 
-- **Sketch out the domain** of the models of Planet, Scientist and Mission.  Think about what foreign keys should go on which models.  What are the relationships between the three?
+<!-- - **Sketch out the domain** of the models of Planet, Scientist and Mission.  Think about what foreign keys should go on which models.  What are the relationships between the three?
 
 - Once you are confident in your domain sketch, build out the models and migrations for your database. 
     - Your Scientist model should have a **name (string)** and **field_of_study (string)**.  
     - Your Mission model should have a **name (string)**.  
     - You will also need to include **foreign keys** on the appropiate models.  
 
-- Test your models are set up correctly by running `rails db:seed` (hint: make sure you set up the relationships on your models!)
+- Test your models are set up correctly by running `rails db:seed` (hint: make sure you set up the relationships on your models!) -->
 
 - Build the following features on your website:
 
-    - A user should be able to see a list of all scientists
+    <!-- - A user should be able to see a list of all scientists -->
 
-    - Clicking on a scientist should take you to a detail page about the scientist, including listing all the planets they have visited.
+    <!-- - Clicking on a scientist should take you to a detail page about the scientist, including listing all the planets they have visited. -->
 
     - A user should be able to create a new scientist.
         - Scientists must have a name and a field of study
         - Scientists' names should be unique
         - If the user makes a mistake on the form, an error should display to the user
 
-    - A user should be able to edit the details of a scientist
+    <!-- - A user should be able to edit the details of a scientist -->
 
     - A user should be able to delete a scientist
 
@@ -33,4 +33,4 @@ It is the year 2100 and you run an interplanetary space travel agency.  You are 
         - After the mission is created, the user should be redirect to the scientist's detail page
         - Check that this is working correctly by verifying the new planet appears on the scientist's detail page
         
- - Build an "about" page at "/about" which should list your name and the total number of scientists and planets in your database.
+ <!-- - Build an "about" page at "/about" which should list your name and the total number of scientists and planets in your database. -->
